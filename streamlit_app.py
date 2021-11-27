@@ -1,5 +1,4 @@
 import streamlit as st
-from home import pageB
 
 st.title("My First App using streamlit")
 
@@ -18,6 +17,6 @@ page_b = st.sidebar.button("Page B")
 if page_a:
     st.header("Page A")
 elif page_b:
-    pageB()
+    st.header("Page B")
 else:
     st.header("ini_header")
